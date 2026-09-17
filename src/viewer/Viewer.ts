@@ -24,9 +24,8 @@ export class Viewer {
   private readonly contentRoot = new Group();
   private readonly resizeObserver: ResizeObserver;
   private currentContent: Group | null = null;
-  private animationFrame = 0;
 
-  constructor(private readonly root: HTMLElement) {
+  constructor(root: HTMLElement) {
     root.innerHTML = this.template();
 
     const viewport = root.querySelector<HTMLDivElement>('[data-viewport]');
@@ -108,7 +107,7 @@ export class Viewer {
   };
 
   private readonly animate = (): void => {
-    this.animationFrame = requestAnimationFrame(this.animate);
+    requestAnimationFrame(this.animate);
     this.cameraController.update();
     this.renderer.render(this.scene, this.camera);
   };
