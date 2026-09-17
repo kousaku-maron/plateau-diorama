@@ -1,0 +1,20 @@
+{
+  "ground": {
+    "width": 240,
+    "depth": 240,
+    "color": "#2b3238"
+  },
+  "buildings": [
+    { "position": [-58, -48], "size": [28, 20, 24] },
+    { "position": [-22, -50], "size": [20, 28, 16] },
+    { "position": [18, -46], "size": [34, 24, 38] },
+    { "position": [60, -50], "size": [20, 25, 22] },
+    { "position": [-62, -8], "size": [24, 36, 18] },
+    { "position": [-23, 0], "size": [30, 22, 42] },
+    { "position": [24, -2], "size": [26, 38, 26] },
+    { "position": [64, -4], "size": [28, 24, 34] },
+    { "position": [-55, 52], "size": [34, 25, 15] },
+    { "position": [-8, 50], "size": [24, 30, 29] },
+    { "position": [42, 52], "size": [42, 24, 20] }
+  ]
+}
